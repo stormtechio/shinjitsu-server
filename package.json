@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stormtechio/shinjitsu-server/issues"
   },
-  "homepage": "https://github.com/stormtechio/shinjitsu-server#readme"
+  "homepage": "https://github.com/stormtechio/shinjitsu-server#readme",
+  "dependencies": {
+    "expressjs": "^1.0.1"
+  }
 }
