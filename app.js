@@ -16,8 +16,10 @@ const connectiondb = require('./api-rest/dbConnection');
 
 const indexRoute = require('./api-rest/routes/index-route');
 const personRoute = require('./api-rest/routes/person-route');
+const userRoute = require('./api-rest/routes/user-route')
 
 app.use('/', indexRoute);
 app.use('/person', personRoute);
+app.use('/login', userRoute);
 
 module.exports = app;
